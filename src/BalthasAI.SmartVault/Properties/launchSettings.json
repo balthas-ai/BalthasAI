@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "BalthasAI.SmartVault": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:13084;http://localhost:13085"
+    }
+  }
+}

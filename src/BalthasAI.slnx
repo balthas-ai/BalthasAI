@@ -8,4 +8,7 @@
     <Project Path="BalthasAI.SemanticPacker.Core/BalthasAI.SemanticPacker.Core.csproj" Id="2e88dafc-d8e6-4f45-9c35-6d302adbbe6a" />
     <Project Path="BalthasAI.SemanticPacker.Extractors/BalthasAI.SemanticPacker.Extractors.csproj" Id="f487f187-9e0e-4387-b9a9-7d095252302b" />
   </Folder>
+  <Folder Name="/SmartVault/">
+    <Project Path="BalthasAI.SmartVault/BalthasAI.SmartVault.csproj" Id="03381ce6-cd3c-4bcb-9607-f9d27e2534b5" />
+  </Folder>
 </Solution>
