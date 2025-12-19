@@ -1,0 +1,22 @@
+﻿<Project Sdk="MSTest.Sdk/4.0.1">
+
+	<PropertyGroup>
+		<TargetFramework>net10.0</TargetFramework>
+		<LangVersion>latest</LangVersion>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<UseVSTest>true</UseVSTest>
+		<PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\BalthasAI.SemanticPacker.Abstractions\BalthasAI.SemanticPacker.Abstractions.csproj" />
+		<ProjectReference Include="..\BalthasAI.SemanticPacker.Core\BalthasAI.SemanticPacker.Core.csproj" />
+		<ProjectReference Include="..\BalthasAI.SemanticPacker.Extractors\BalthasAI.SemanticPacker.Extractors.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.Extensions.Hosting" Version="10.0.1" />
+	</ItemGroup>
+
+</Project>

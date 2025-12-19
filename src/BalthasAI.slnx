@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/SemanticPacker/">
+    <Project Path="BalthasAI.SemanticPacker.Cli/BalthasAI.SemanticPacker.Cli.csproj" Id="0cffaa29-343b-4db7-b712-169ff99de71a" />
+    <Project Path="BalthasAI.SemanticPacker.Test/BalthasAI.SemanticPacker.Test.csproj" Id="c512f8fa-4bb9-48e1-9fed-2720fafa9ba4" />
+  </Folder>
+  <Folder Name="/SemanticPacker/Libraries/">
+    <Project Path="BalthasAI.SemanticPacker.Abstractions/BalthasAI.SemanticPacker.Abstractions.csproj" Id="7052fdb1-77ae-4f3b-a016-7b20f57bda4d" />
+    <Project Path="BalthasAI.SemanticPacker.Core/BalthasAI.SemanticPacker.Core.csproj" Id="2e88dafc-d8e6-4f45-9c35-6d302adbbe6a" />
+    <Project Path="BalthasAI.SemanticPacker.Extractors/BalthasAI.SemanticPacker.Extractors.csproj" Id="f487f187-9e0e-4387-b9a9-7d095252302b" />
+  </Folder>
+</Solution>

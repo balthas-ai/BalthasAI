@@ -1,0 +1,15 @@
+GNU Affero General Public License v3.0 (AGPL-3.0) + Commercial Dual License
+
+This project (BalthasAI.SemanticPacker.Cli) is dual-licensed under:
+
+1) GNU Affero General Public License v3.0 (AGPL-3.0)
+   - See: ../../LICENSES/AGPL-3.0.txt
+
+OR
+
+2) A commercial license
+   - If you need to use this CLI without AGPL-3.0 obligations, obtain a commercial license from the maintainers.
+   - Contact: rkttu@rkttu.com
+
+Notes
+- The library projects in this repository are licensed separately (Apache-2.0). See the root README for the license matrix.

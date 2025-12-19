@@ -1,0 +1,65 @@
+# ==============================
+# BalthasAI (.NET) .gitignore
+# ==============================
+
+# --- Build outputs ---
+**/bin/
+**/obj/
+**/out/
+
+# --- User/IDE specific ---
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code
+.vscode/
+
+# JetBrains Rider / IntelliJ
+.idea/
+*.sln.iml
+
+# --- NuGet ---
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+
+# --- Test results / coverage ---
+**/TestResults/
+*.trx
+*.coverage
+*.coveragexml
+coverage*
+
+# --- Generated datasets ---
+*.chunks.parquet
+
+# --- Logs / temp ---
+*.log
+*.tmp
+*.temp
+*.swp
+*.bak
+*.old
+
+# --- OS files ---
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# --- Diagnostics ---
+*.dmp
+*.dump
+
+# --- Local env / secrets (if any) ---
+.env
+.env.*
+
+# --- Optional: local model folders (keep paths generic) ---
+# If you keep large downloaded embedding models under the repo, ignore them here.
+# Example:
+# models/
